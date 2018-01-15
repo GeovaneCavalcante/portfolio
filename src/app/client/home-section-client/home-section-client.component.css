@@ -1,0 +1,68 @@
+.img-title{
+    width: 35%;
+    margin-left: auto;
+	margin-right: auto;
+    display: block;
+    border: solid #ffffff 2px;
+
+}
+.title{
+    padding: 0px;
+    margin: 15px;
+    color: white;
+    font-size: 170%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.frase{
+    padding: 0px;
+    margin: 15px;
+    color: white;
+    font-size: 110%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.r{ 
+    border: 0;
+    height: 1px;
+    width: 65%;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(211, 207, 207), rgba(0, 0, 0, 0));
+  }
+.lista{
+    font-size: 120%;
+    color: white;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 10%;
+} 
+.lista, li, a{
+    transition-duration: 0.8s;
+    color: white;
+    padding-top: 10%;
+}
+.lista, li, a:hover{
+    transition-duration: 0.8s;
+    color: #66c6ff;
+}
+
+.list, li{
+    display: inline;
+
+    text-align: center;
+} 
+.list-a{
+    font-size: 200%;
+    text-align: center;
+    padding-left: 10%;
+}  
+
+
+@font-face {
+    font-family: t;
+    src: url('/assets/fonts/AlteHaasGroteskBold.ttf');
+}
+@font-face {
+    font-family: tw;
+    src: url('/assets/fonts/AlteHaasGroteskRegular.ttf');
+}

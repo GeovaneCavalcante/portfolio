@@ -1,0 +1,11 @@
+.sec{
+    width:100%;
+    height: 100%;
+    position: fixed;
+    z-index: 900;
+    display: block;
+    width: 22.5rem;
+    background-image: url('/assets/fotos/wal.jpg');
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+}
