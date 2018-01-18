@@ -1,0 +1,17 @@
+
+.sec1{
+    display: block;
+    border: solid 4px red;
+    float: right;
+    width:100%;
+    height: 100%;
+    background-image: url('/assets/fotos/wal.jpg');
+    background-size: 200% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+@media (max-width: 480px) { 
+   
+}

@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+@media (max-width: 480px) { 
+    .de{
+        display: none;
+    }
+}
+
+/* Telefones em paisagem a tablet em retrato */
+@media (max-width: 767px) {
+    .de{
+        display: none;
+    }
+}
+
+/* Tablet em retrato a paisagem e desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    .de{
+        display: none;
+    }
+}
+
+/* Desktop grande */
+@media (min-width: 1200px) {
+    
+}
+.ta{
+    background: none;
+    padding: 0%;
+    margin: 0%;
+    border: inherit 1px;
+    box-shadow: 0px 0px 0px rgba(0,0,0,0.5);
+}
