@@ -5,6 +5,7 @@ import { ClientComponent } from './client.component';
 import { PostagenClientComponent } from './postagen-client/postagen-client.component';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeClientComponent } from './home-client/home-client.component';
+import { HomeAboutComponent } from './home-about/home-about.component';
 
 const appRoutes: Routes = [
   { path: '', component: HomeClientComponent },
@@ -24,7 +25,8 @@ const appRoutes: Routes = [
     HomeSectionClientComponent,
     ClientComponent,
     PostagenClientComponent,
-    HomeClientComponent
+    HomeClientComponent,
+    HomeAboutComponent
   ],
   exports: [
     HomeSectionClientComponent,
