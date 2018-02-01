@@ -23,6 +23,13 @@
 .divpost{
     padding-left: 6%; padding-right: 6%;
 }
+
+.title1{
+    text-align: center;
+    padding-left: 1%;
+    color: #3d3b3b;
+    padding-bottom: 2%;
+}
 @media (max-width: 480px) { 
    .si{
        display: none;
@@ -37,12 +44,11 @@
         text-align: center;
         font-size: 12px;
     }
-    .imgTamanho{
-        width:100%;
-        height: 200px;
-    }
-    .divpost{
-        padding-left: 1%; padding-right: 1%;
+    .title1{
+        text-align: center;
+        font-size: 200%;
+        color: #3d3b3b;
+        padding-bottom: 2%;
     }
 }
 

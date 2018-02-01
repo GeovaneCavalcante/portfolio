@@ -6,12 +6,11 @@ import { PostagenClientComponent } from './postagen-client/postagen-client.compo
 import { RouterModule, Routes } from '@angular/router';
 import { HomeClientComponent } from './home-client/home-client.component';
 import { HomeAboutComponent } from './home-about/home-about.component';
+import { ContactComponent } from './contact/contact.component';
+import { PageContactComponent } from './page-contact/page-contact.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
-const appRoutes: Routes = [
-  { path: '', component: HomeClientComponent },
-  { path: 'postagens', component: PostagenClientComponent }
-];
-
+import { appRoutes } from './routes';
 
 @NgModule({
   imports: [
@@ -26,7 +25,10 @@ const appRoutes: Routes = [
     ClientComponent,
     PostagenClientComponent,
     HomeClientComponent,
-    HomeAboutComponent
+    HomeAboutComponent,
+    ContactComponent,
+    PageContactComponent,
+    PortfolioComponent
   ],
   exports: [
     HomeSectionClientComponent,

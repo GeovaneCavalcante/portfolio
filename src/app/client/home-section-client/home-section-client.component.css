@@ -116,22 +116,67 @@
         font-family: 'Ubuntu', sans-serif;
     }
 }
-
 /* Telefones em paisagem a tablet em retrato */
 @media (max-width: 767px) {
-   
+    
 }
 
 /* Tablet em retrato a paisagem e desktop */
 @media (min-width: 768px) and (max-width: 979px) {
-    /* estilos aqui */
+    .img-title{
+        margin-top: 5%;
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border: solid #ffffff 2px;
+    
+    }
+    #menu2{
+        margin-left: 18%;
+    }
+
+    #menu2 ul li{
+        font-size: 300%;
+
+    }
+
+    
+
+    .frase{
+        padding: 0px;
+        margin: 15px;
+        color: white;
+        font-size: 150%;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    .title{
+        padding: 0px;
+        margin: 15px;
+        color: white;
+        font-size: 250%;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    #menu ul {
+        padding:0px;
+        margin:0px;
+        list-style:none;
+        font-size: 150%;
+        color: white;
+        text-align: center;
+        font-family: 'Ubuntu', sans-serif;
+        padding-bottom: 4%;
+    }
 }
 
 /* Desktop grande */
 @media (min-width: 1200px) {
-
-  
+    
 }
+
 
 
 @font-face {
