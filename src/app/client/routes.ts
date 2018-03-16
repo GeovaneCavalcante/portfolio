@@ -1,3 +1,4 @@
+import { PostagenDetailComponent } from './postagen-detail/postagen-detail.component';
 import { Routes } from '@angular/router';
 
 
@@ -11,6 +12,7 @@ import { PostagenClientComponent } from './postagen-client/postagen-client.compo
 export const appRoutes: Routes = [
     { path: '', component: HomeClientComponent },
     { path: 'postagens', component: PostagenClientComponent },
-    { path: 'contatos', component: PageContactComponent }
+    { path: 'postagens/1', component: PostagenDetailComponent },
+    { path: 'contatos', component: PageContactComponent },
     { path: 'portfolio', component: PortfolioComponent }
 ]

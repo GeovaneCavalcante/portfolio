@@ -9,8 +9,10 @@ import { HomeAboutComponent } from './home-about/home-about.component';
 import { ContactComponent } from './contact/contact.component';
 import { PageContactComponent } from './page-contact/page-contact.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
-
 import { appRoutes } from './routes';
+import { PostagenDetailComponent } from './postagen-detail/postagen-detail.component';
+
+import { HighlightModule } from 'ngx-highlightjs';
 
 @NgModule({
   imports: [
@@ -18,7 +20,9 @@ import { appRoutes } from './routes';
     RouterModule.forRoot(
       appRoutes,
       { enableTracing: true } // <-- debugging purposes only
-    )
+    ),
+    HighlightModule.forRoot({ theme: 'default' }),
+
   ],
   declarations: [
     HomeSectionClientComponent,
@@ -28,7 +32,8 @@ import { appRoutes } from './routes';
     HomeAboutComponent,
     ContactComponent,
     PageContactComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    PostagenDetailComponent
   ],
   exports: [
     HomeSectionClientComponent,
